@@ -17,6 +17,10 @@ Route::get('/clicker', function () {
     return view('clicker');
 });
 
+Route::get('register', function () {
+    return view('register');
+});
+
 Route::get('/', function () {
     return view('welcome');
 });
